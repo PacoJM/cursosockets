@@ -1,0 +1,23 @@
+{
+  "name": "cursosockets",
+  "version": "1.0.0",
+  "description": "Proyecyo de chat con NodeJS y Socket.io",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PacoJM/cursosockets.git"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PacoJM",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
